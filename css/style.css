@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: burlywood;
+  height: 12vh;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  border-bottom: 2px solid black;
+  color: #f0f8ff;
+  height: 12vh;
+  position: sticky;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+}
+
+.logo:hover {
+  transition: none;
+  transform: none;
+}
+
+#logo {
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  height: 80px;
+  width: 80px;
+  margin: 1rem;
+  border: 2px solid white;
+}
+
+#branding {
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 0.3rem;
+}
+
+#branding:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+img {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 20px;
+  width: 20vw;
+}
+
+nav ul li {
+  display: flex;
+  text-decoration: none;
+  justify-content: end;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  text-align: right;
+}
+
+nav ul li a:hover {
+  color: blue;
+  transform: scale(1.3);
+  text-decoration: underline;
+}
+
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+}
+
+#search {
+  width: 350px;
+}
+
+#btn-small {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: thistle;
+}
+
+#btn-small:hover {
+  color: blue;
+  transform: scaleX(0.8);
+}
+
+input {
+  width: 20vw;
+  height: 3.5vh;
+  border-radius: 9px 4px;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: rgb(148, 148, 196);
+  transform: scaleX(1.1);
+}
+
+.main {
+  min-height: calc(100vh - 12vh - 12vh);
+}
+
+/* Introduction Section */
+
+.intro-section {
+  display: flex;
+
+  margin: 1rem;
+  height: 70vh;
+
+  align-items: center;
+}
+.introduction-video {
+  height: 400px;
+}
+
+.introduction-text,
+.introduction-video {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  padding: 1rem;
+  width: 50%;
+}
+.introduction-text {
+  display: flex;
+  flex-direction: column;
+  size: 3rem;
+}
+brand-intro-para {
+  size: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#order_button {
+  justify-content: center;
+  text-align: center;
+  margin: 1rem auto;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.introduction-branding {
+  position: absolute;
+  top: 190px;
+  left: 1042px;
+}
+
+.introduction {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  border-bottom: 2px solid black;
+  height: 300px;
+}
+
+#brandname {
+  text-decoration: none;
+  text-size-adjust: 19px;
+}
+#best-seller {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#best-seller:hover {
+  color: blue;
+  transform: scaleX(1.2);
+}
+
+.class-items {
+  display: inline-block;
+}
+
+img {
+  border: 5px solid rgb(202, 219, 226);
+}
+
+img:hover {
+  transform: scaleX(1.1);
+  transition: 0.1s step-end;
+}
+
+p {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.card {
+  max-width: 91vw;
+  margin: 37px auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 1em;
+}
+.class-items {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  justify-content: center;
+}
+
+#upcoming-products {
+  display: flex;
+  justify-content: center;
+}
+
+#upcoming-products:hover {
+  color: blue;
+  transform: scaleX(1.2);
+}
+
+#normal-products {
+  display: flex;
+  justify-content: center;
+}
+
+#normal-products:hover {
+  color: blue;
+  transform: scaleX(1.2);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f8ff;
+  color: black;
+  height: 300px;
+  font-family: "Lato", sans-serif;
+  border-top: 2px solid black;
+}
+
+.home {
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+}
+
+.home h2 {
+  font-weight: bolder;
+}
+.socials {
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+}
+.Presence {
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer ul{
+  font-size: 1.5rem;
+}
+
+footer ul li a{
+  text-decoration: none;
+}

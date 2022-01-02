@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin: 0px 650px;
+    padding: 64px;
+}
