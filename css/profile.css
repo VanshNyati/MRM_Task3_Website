@@ -6,9 +6,12 @@
 h1 {
     display: flex;
     justify-content: center;
+    padding: 0px 0px 30px;
 }
 
 main {
-    margin: 0px 650px;
+    
+    margin: 0px 650px; 
     padding: 64px;
+    width: fit-content;
 }

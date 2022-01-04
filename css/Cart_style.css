@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
 }
+main{
+  background-color: rgba(226, 235, 222, 0.857);
+}
 
 .cart-header {
   display: flex;
   justify-content: center;
   font-size: 2rem;
+  background-color:rgba(226, 235, 222, 0.857) ;
   
 }
 
@@ -15,37 +19,63 @@
     color: blue;
 }
 
-.list-items {
-    padding: 50px;
-    margin: 50px;
-}
+
 
 .cart {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
 }
+
 .card-items {
-  margin: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  padding: 1.5rem;
+  
 }
+
 h1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    color: cadetblue;
 }
 
 .bill-area {
-    width: 500px;
-    height: auto;
+  
+    /* width: 500px;
+    height: auto; */
     font-size: 1.5rem;
-    margin: auto;
-    background-color: rgb(175, 230, 245);
+    background-color: rgba(203, 228, 193, 0.857);
+
 }
 #total-items , #discount , #Amount ,  #final-prize {
     font-size: 1.8rem;
     margin: 10px;
 }
+
+p{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.product-pic{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  size:2rem;
+}
+
 

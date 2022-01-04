@@ -1,4 +1,67 @@
-@media screen and (max-width: 100px) {
+@media only screen and (max-width: 1130px) {
+    nav{
+        display: flex;
+        position: sticky;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0rem 1rem; 
+    }
+
+    .introduction-video{
+        display: none;
+    }
+
+    .intro-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .class-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .card-item{
+        margin: 20px ;
+        padding: 45px;
+        width: fit-content;
+        
+    }
+
+    .lines{
+        display: flex ;
+        flex-direction: row;
+    }
     
-    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 5px 3px;
+
+    }
+    .lines{
+        width: 33px;
+        background-color: black;
+        height: 4px;
+        margin: 5px 3px;
+    }
 }
