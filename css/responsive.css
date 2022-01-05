@@ -13,24 +13,25 @@
         margin-top: 2rem;
     }
 
-    .nav-intro-links{
+    header .nav-intro-links{
         position:absolute;
         top:100%; left:0; right:0;
         background:#eee;
         border-top: 1rem solid rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        display: flex;
+        justify-content: center;
+        
     }
 
     header #toggler:checked ~ .nav-intro-links {
         clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    header .nav-intro-links a{
-        margin:1.5rem;
-        padding:1.5rem;
+    header .nav-intro-links ul li a{
         background:#fff;
         border:.1rem solid rgba(0, 0, 0,.1);
-        display: block;
+        
     }
 
     .introduction-video{
